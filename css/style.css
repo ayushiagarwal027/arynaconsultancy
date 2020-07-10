@@ -1,0 +1,112 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+body {
+    text-align: center;
+    color: black;
+    font-family: 'Acme', sans-serif;
+    background-color: #ddf3f5;
+    overflow-x: hidden;
+}
+
+hr {
+    width: 50%;
+    border-top: 3px dotted #70a1d7;
+    margin-left: 25%;
+}
+@media only screen and (max-width: 768px){
+#intro-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+} 
+@media (max-width: 768px){
+.intro-index {
+    margin-top: 40px;
+}
+}
+
+#intro-container {
+   height: 70vh;
+   background-color: #ddf3f5;
+    background: url('outsourcing6.png') center bottom fixed;
+    background-size: 800px;
+    background-repeat: repeat-x;
+
+}
+
+.premium-intro {
+    font-family: 'Josefin Sans', sans-serif; 
+    background: transparent;
+    width: 100%;
+    position: absolute;
+    bottom: 2vh;
+    left:0px;
+}
+@media (max-width: 768px){
+    .premium-intro  {
+        height: 30vh;
+    }
+    }
+h4{
+    font-size: 4vh;
+}
+h6{
+    font-size: 2.5vh;
+}
+/*############################   Navbar     ########################## */
+.navbar-brand {
+    padding-left: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar{
+    background: #1b6ca8;
+    padding: 20px 0;
+}
+.navbar-header{
+    margin-left: 10px;
+}
+
+/*############################   Serivces     ########################## */
+.service-each-block {
+    display: flex;
+     min-height: 125px;
+     text-align: left;
+     padding: 0px 10px ;
+ }
+ .service-each-block>span>i {
+     color:#70a1d7;
+     font-size: 3em;
+     width:80px;
+ }
+/*############################   Client     ########################## */
+.block-heading {
+    margin: 40px;
+}
+.clients-img
+{
+    border-radius: 50%;
+}
+/*############################   CONTACT     ########################## */
+.contact-each-block {
+    display: inline;
+    margin: 10px auto;
+}
+
+.contact-each-block>i {
+    display: inline;
+    color: #70a1d7;
+    padding: 1% 2%;
+    font-size: 2em;
+}
+
+

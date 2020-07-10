@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---------------------------------Text Style---------------------------------->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Acme&family=Orbitron:wght@500&family=Original+Surfer&family=Righteous&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Notable&display=swap" rel="stylesheet">
+  <!---------------------------------Icon---------------------------------->
+  <script src="https://kit.fontawesome.com/dddf758042.js" crossorigin="anonymous"></script>
+  <!---------------------------------Bootstrap---------------------------------->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Aryna Consultancy</title>
+  <link rel="icon" href="images/favicon.png" type="image">
+</head>
+
+<body>
+  <!---------------------------NAVIGATION BAR---------------------------->
+  <nav id="scrollspy" class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <div class="navbar-header">
+        <img src="images/favicon.png" alt="" type="image" height="42" width="42">
+        <a class="navbar-brand" href="#home">Aryna Consultancy</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+          style="display: none;"></button>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Who are we</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">What We do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clients">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!----------------------scrollspy---------------------------->
+  <data-spy="scroll" data-target="#scrollspy" data-offset="0">
+    <!----------------------------------------------HOME ---------------------------------->
+    <h3 id="home" class="block-heading">Who We Are</h3>
+    <section id="intro-container" class="intro-index">
+      <div class="container">
+            <div class="premium-intro">
+              <div class="align-text-to-bottom-middle">
+              <h4> We Provide End-to-End Software Development Outsourcing Solutions.
+              </h4>
+              <h6>We are a qualified team of professionals dedicated to working on our
+                clients technology projects
+                and develop products and services that exceed expectations.
+              </h6>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <!---------------------------SERVICES--------------------------------------->
+    <div class="container">
+      <h3 id="services" class="block-heading">What we do</h3>
+      <div class="row">
+        <div class="col-md-7 service-each-block">
+          <span class="pull-left">
+            <i class="fa  fa-file-code"></i>
+          </span>
+          <div>
+            <h5>Full-Stack Developers</h5>
+            <p>PHP, Javascript, Java, .NET/C#, Python, HTML, CSS, Bootstrap, Wordpress</p>
+          </div>
+        </div>
+        <div class="col-md-5 service-each-block">
+          <span class="pull-left">
+            <i class="fa fa-tools"></i>
+          </span>
+          <div>
+            <h5>Quality Engineers</h5>
+            <p> Katalon Studio, MxVDev, Phpunit, Selenium,  Qtest, TestLink</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7 service-each-block">
+          <span class="pull-left">
+            <i class="fa  fa-tasks"></i>
+          </span>
+          <div>
+            <h5>Project Management</h5>
+            <p>Agile, Scrum, Jira, Trello, Git, Github</p>
+          </div>
+        </div>
+        <div class="col-md-5 service-each-block">
+          <span class="pull-left">
+            <i class="fa  fa-pencil-ruler"></i>
+          </span>
+          <div>
+            <h5>Design</h5>
+            <p> User Interface, User Experience, Graphic Design</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 service-each-block">
+          <span class="pull-left">
+            <i class="fas fa-chalkboard-teacher "></i>
+          </span>
+          <div>
+            <h5>Virtual Staff</h5>
+            <p> Virtual Assistants, Customer Support, Tech Support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------clients--------------------------------------->
+    <hr>
+    <div class="container">
+      <h3 id="clients" class="block-heading">Our Clients</h3>
+      <div class="row center">
+        <div class="col">
+          <img class="clients-img" src="images/clients.jpg" alt="" height="150" width="150">
+        </div>
+      </div>
+    </div>
+    <!-----------------------------contact us-------------------------------------->
+    <hr>
+    <div class="row">
+      <div class="col-md-6 contact-each-block">
+        <h3 id="contact" class="block-heading">Connect With Us</h3>
+        <i class="fa fa-facebook-square connect-icon"></i>
+        <i class="fa fa-twitter-square connect-icon"></i>
+        <i class="fa fa-linkedin-square connect-icon"></i>
+      </div>
+      <div class="col-md-6 contact-each-block">
+        <h3  class="block-heading">Contact Us</h3>
+        <p> +91 9160160238 <br>
+          <a id="mailTo" href="mailto:hrinfo@arynaconsultancy.com">hrinfo@arynaconsultancy.com</a>
+          <br>
+          D1003,Tower 4,
+          Adarsh Palm Retreat,<br>
+          Outer Ring Road,
+          Devarabeesanahalli,bellandur, <br>
+          Bangalore - 560103
+        </p>
+      </div>
+    </div>
+    </data-spy>
+</body>
+
+</html>
