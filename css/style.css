@@ -98,7 +98,7 @@ h6 {
 
 
 .mobile-nav-toggle {
-  position: fixed;
+  position: absolute;
   right: 15px;
   top: 25px;
   color: black;
@@ -151,6 +151,7 @@ h6 {
 
 .antic-slab-font {
   font-family: "Antic Slab", serif;
+  white-space: nowrap;
 }
 
 .footer-box {
@@ -161,7 +162,7 @@ h6 {
 }
 
 .mobile-footer {
-  background: #2f92ff;
+  background: #74b9ff;
 }
 
 /*####################hover button###################*/
