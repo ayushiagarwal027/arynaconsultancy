@@ -8,6 +8,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Acme&family=Orbitron:wght@500&family=Original+Surfer&family=Righteous&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Notable&display=swap"
@@ -32,11 +33,9 @@
   <nav id="scrollspy" class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <div class="navbar-header">
-        <img src="images/favicon.png" alt="" type="image" height="42" width="42">
         <a class="navbar-brand" href="#home">Aryna Consultancy</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
-          style="display: none;"></button>
-        </button>
+        <button class="navbar-toggler mobile-nav-toggle" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <i class="fa fa-bars"></i></button>
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
@@ -52,10 +51,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact Us</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link hover-button" href="#"><span>Start Project</span></a>
+          </li>
         </ul>
       </div>
-      <button class="btn btn-outline-dark btn-lg ml-3 d-none d-lg-block">Start project</button>
-    </div>
   </nav>
   <!----------------------scrollspy---------------------------->
   <data-spy="scroll" data-target="#scrollspy" data-offset="0">
@@ -143,9 +143,9 @@
       </div>
     </div>
     <!-----------------------------contact us-------------------------------------->
-    <div class="tag-box">
-      <h1><span class="hello">Hello.</span>
-        <a href="/startProject" class="product-line">Let's build <br> a product.</a></h1>
+    <div class="footer-box">
+      <h1><span class="raleway-font">Hello.</span>
+        <a href="/startProject" class="antic-slab-font">Let's build <br> a product.</a></h1>
       <h6>WRITE US.WE WOULD LOVE TO HEAR FROM YOU</h6>
       <div class="row">
         <div class="col-md-6 contact-each-block">
@@ -167,7 +167,7 @@
           </p>
         </div>
       </div>
-      <div class="btn-group btn-primary w-100  d-lg-none fixed-bottom">
+      <div class="btn-group mobile-footer w-100  d-lg-none fixed-bottom">
         <a href="tel:+919160160238" title="Call Us" class="btn py-3 w-50 border-right">
           <span>CALL US</span>
         </a>

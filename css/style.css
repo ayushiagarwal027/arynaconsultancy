@@ -5,6 +5,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -17,14 +18,17 @@ body {
   background-color: #ddf3f5;
   overflow-x: hidden;
 }
+
 a {
   color: #ebffff;
 }
+
 hr {
   width: 50%;
   border-top: 3px dotted #70a1d7;
   margin-left: 25%;
 }
+
 @media only screen and (max-width: 768px) {
   #intro-container {
     width: 100%;
@@ -32,6 +36,7 @@ hr {
     position: relative;
   }
 }
+
 @media (max-width: 768px) {
   .intro-index {
     margin-top: 40px;
@@ -54,28 +59,54 @@ hr {
   bottom: 2vh;
   left: 0px;
 }
+
 @media (max-width: 768px) {
   .premium-intro {
     height: 30vh;
   }
 }
+
 h4 {
   font-size: 4vh;
 }
+
 h6 {
   font-size: 2.5vh;
 }
+
 /*############################   Navbar     ########################## */
 .navbar-brand {
   padding-left: 0.5rem;
   font-family: "Orbitron", sans-serif;
 }
+
 .navbar {
-  background: #74b9ff; /* 1b6ca8*/
+  background: #74b9ff;
+  /* 1b6ca8*/
   padding: 20px 0;
 }
+
 .navbar-header {
   margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Kanit', sans-serif;
+  color: rgba(0, 0, 0, .9);
+  font-size: larger;
+}
+
+
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 25px;
+  color: black;
+  border: 0;
+}
+
+.mobile-nav-toggle>i {
+  color: black;
 }
 
 /*############################   Serivces     ########################## */
@@ -85,41 +116,91 @@ h6 {
   text-align: left;
   padding: 0px 10px;
 }
-.service-each-block > span > i {
+
+.service-each-block>span>i {
   color: #70a1d7;
   font-size: 3em;
   width: 80px;
 }
+
 /*############################   Client     ########################## */
 .block-heading {
   margin: 40px;
 }
+
 .clients-img {
   margin-bottom: 40px;
   border-radius: 50%;
 }
+
 /*############################   CONTACT     ########################## */
 .contact-each-block {
   display: inline;
   margin: 10px auto;
 }
 
-.contact-each-block > i {
+.contact-each-block>i {
   display: inline;
   padding: 1% 2%;
   font-size: 2em;
 }
 
-.hello {
+.raleway-font {
   font-family: "Raleway", sans-serif;
 }
-.product-line {
+
+.antic-slab-font {
   font-family: "Antic Slab", serif;
 }
 
-.tag-box {
+.footer-box {
   background: #2f92ff;
   color: #ebffff;
   border-top: 10px solid #92d5ff;
   padding-top: 50px;
+}
+
+.mobile-footer {
+  background: #2f92ff;
+}
+
+/*####################hover button###################*/
+.hover-button {
+  border-radius: 10rem;
+  border: 2px solid #ebffff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.hover-button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.hover-button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.hover-button:hover {
+  color: #fff;
+}
+
+.hover-button:hover:before {
+  width: 100%;
 }
