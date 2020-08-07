@@ -1,0 +1,62 @@
+<form name="spForm" id="spForm" novalidate="novalidate">
+  <span class="error hide"></span>
+  <input
+    type="text"
+    name="name"
+    placeholder="FULL NAME"
+    class="input trns"
+    maxlength="50"
+  />
+  <input
+    type="email"
+    name="email"
+    placeholder="EMAIL ADDRESS"
+    class="input trns"
+    maxlength="100"
+  />
+  <textarea
+    name="message"
+    cols="20"
+    rows="4"
+    placeholder="PROJECT DESCRIPTION"
+    maxlength="20000"
+  ></textarea>
+  <div class="custom-upload-wrapper">
+    <input
+      name="file"
+      type="file"
+      id="projectFile"
+      accept="application/pdf,application/msword,
+        application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/x-png,image/jpg,image/jpeg"
+      class="input trns"
+    />
+    <label for="projectFile">
+      <span id="project-file-name" class="file-box"
+        >PROJECT DOCUMENT (optional)</span
+      >
+    </label>
+    <label id="file-error" class="error" for="file" style="display: none;"
+      >Max allowed size is 5Mb. Upload only DOCX, PDF, JPG, JPEG, PNG files.
+    </label>
+  </div>
+  <input
+    type="text"
+    name="location"
+    placeholder="LOCATION (optional)"
+    class="input trns"
+  />
+  <input
+    type="text"
+    name="budget"
+    placeholder="BUDGET $ (optional)"
+    class="input trns"
+  />
+  <!-- <input type="hidden" name="_subject" value="WAL Website Start Project Submission"/> -->
+  <!-- <input type="hidden" name="_next" value="../"> -->
+  <input
+    type="submit"
+    value="SUBMIT"
+    class="sp-btn trns"
+    id="start-project-submit"
+  />
+</form>
